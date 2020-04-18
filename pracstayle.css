@@ -1,0 +1,94 @@
+html { 
+  background: url('https://images5.alphacoders.com/351/351885.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+body{
+   	color:#555;
+    font-family:Arial,Helvetica;
+    font-size:20px;
+    line-height: 1.6em;
+    margin: 0;
+    overflow: scroll;
+ }
+
+
+
+.abc{
+    width:30%;
+    background-image:url('https://img.freepik.com/free-photo/abstract-background-with-low-poly-design_1048-8478.jpg?size=626&ext=jpg');
+    background-image:repeating-radial-gradient(blue,gray);
+    color:White;
+    padding:40px;
+    font-style:normal;
+    position: absolute;
+    /*top: 50%;
+    left: 50%;*/
+    transform: translate(-50%,0%);    
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#cover {
+	width:100%;
+}
+
+.abc input[type ="text"],.abc input[type="password"]{
+    background: black;
+    margin:20px auto;
+    text-align: center;
+    padding:14px 10px;
+    width:60%;
+    outline:none;
+    color:white;
+    border-radius: 24px;
+    transition: 0.25s;
+    
+    
+}
+
+.abc input[type ="text"]:focus,.abc input[type="password"]:focus{
+    background: black;
+    margin:20px auto;
+    text-align: center;
+    padding:14px 10px;
+    width:75%;
+    outline:none;
+    color:white;
+    border-radius: 24px;
+    transition: 0.25s;
+    
+    
+}
+
+.abc input[type="submit"]{
+    background: black;
+    margin:10px auto;
+    text-align: center;
+    padding:5px 5px;
+    width:45%;
+    outline:none;
+    color:white;
+    border-radius: 12px;
+    transition: 0.25s;
+}
+
+.abc input[type="submit"]:hover {
+	background : #42bcf5;
+}
+
+#hd {
+	text-align: center;
+	color: #ffffff;
+	padding-top: 3%;
+	font-size: 30px;
+}
+
+#hd .abc {
+	overflow: scroll;
+}
